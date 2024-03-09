@@ -135,6 +135,7 @@
 - Names can be us-east-1, eu-west-3…
 - A region is a **cluster of data centers**
 - **Most AWS services are region-scoped**
+- AWS Regions consist of multiple, isolated, and physically separate Availability Zones within a geographic area.
 
 ### How to choose an AWS Region?
 
