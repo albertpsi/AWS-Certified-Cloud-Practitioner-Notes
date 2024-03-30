@@ -162,6 +162,27 @@ Example:
 - Access Keys are secret, just like a password. Don’t share them
 - Access Key ID ~= username
 - Secret Access Key ~= password
+- To get an Access Key ID and Secret Access Key for your AWS account, follow these steps:
+- 1.	Open the AWS console and make sure you are logged in with your root username and password.
+  2.	In the navigation bar, click on your username and select My Security Credentials.
+  3.	Click the Continue to Security Credentials button.
+  4.	Expand the Access Keys (Access Key ID and Secret Access Key) option.
+  5.	To generate new access keys, click the Create New Access Key button.
+  6.	Click Show Access Key to have it displayed on the screen. You can download it to your machine as a file and open it whenever needed. To download it, just click the Download Key File button.
+- For IAM users:
+- 1. Open the IAM console1.
+  2. In the sidebar, click on Users.
+  3. If you have an existing user you would like to generate credentials for, click on the user’s name.
+  4. Click on the Security Credentials tab.
+  5. Scroll down to the Access keys section and click on Create access key
+  6. Download the file with the Access key ID and Secret access key1. Note that the Secret Access Key can only be retrieved at the moment of creation.
+Note: you can see the AWS secret access key only once immediately after creating so, in order to get a secret key, you will need to create a new one. 
+If you do not write down the key or download the key file to your computer before you press “Close” or “Cancel” you will not be able to retrieve the AWS secret access key in future. Then you’ll have to delete the keys which you created and start to create new keys.
+As a best practice, AWS recommends creating an IAM user rather than relying on root access keys. IAM access keys allow you to securely control access to AWS services and resources for your users.
+Remember to manage your access keys securely. Do not provide your access keys to unauthorized parties, even to help find your account identifiers. By doing this, you might give someone permanent access to your account.
+
+  ![image](https://github.com/albertpsi/AWS-Certified-Cloud-Practitioner-Notes/assets/71813460/2d00eeed-4f81-49dd-9112-e60782c3678f)
+
 
 ## What’s the AWS CLI?
 
