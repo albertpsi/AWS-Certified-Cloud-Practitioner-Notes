@@ -176,6 +176,7 @@ Example:
   4. Click on the Security Credentials tab.
   5. Scroll down to the Access keys section and click on Create access key
   6. Download the file with the Access key ID and Secret access key1. Note that the Secret Access Key can only be retrieved at the moment of creation.
+
 Note: you can see the AWS secret access key only once immediately after creating so, in order to get a secret key, you will need to create a new one. 
 If you do not write down the key or download the key file to your computer before you press “Close” or “Cancel” you will not be able to retrieve the AWS secret access key in future. Then you’ll have to delete the keys which you created and start to create new keys.
 As a best practice, AWS recommends creating an IAM user rather than relying on root access keys. IAM access keys allow you to securely control access to AWS services and resources for your users.
